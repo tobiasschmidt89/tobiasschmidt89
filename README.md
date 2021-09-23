@@ -8,7 +8,7 @@
 ![Deno](https://img.shields.io/badge/Deno-Learning-white)
 
 I am a hands-on digitalisation expert in Munich. 
-Currently I work at [Plan.Net](https://www.plan-net.com/en.html) to help companies deliver reliable, personalised and profitable digital experiences to their customers. 
+Currently I work at [Plan.Net Journey](https://www.plan-net.com/en.html) to help companies deliver reliable, personalised and profitable digital experiences to their customers. 
 You can learn more about me on [my personal blog](https://tobiasschmidt.me/).
 
 <!---
