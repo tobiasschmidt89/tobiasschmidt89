@@ -1,7 +1,5 @@
 # Hi I am Tobias Schmidt 👋
 
----
-
 ![HTML](https://img.shields.io/badge/HTML-Expert-blue)
 ![CSS](https://img.shields.io/badge/CSS-Expert-yellow)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Expert-black)
