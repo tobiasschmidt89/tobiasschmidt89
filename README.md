@@ -7,10 +7,11 @@
 ![Deno](https://img.shields.io/badge/Deno-Expert-white)
 ![Go](https://img.shields.io/badge/Go-Learning-lightblue)
 
-Hi, I’m Tobi, a hands-on digitalisation expert in Munich—an engineer at heart with a business value-driven mindset.
-I currently work at the intersection of online marketing, business intelligence and marketing automation to enable companies to deliver dependable, personalised and profitable digital experiences to their customers.
+Hi, I’m Tobi. 
 
-You can learn more about me on [my personal blog](https://tobiasschmidt.me/).
+I build digital robots with RPA and AI to automate work.
+
+You can learn more about me on [my personal website](https://tobiasschmidt.me/).
 
 <!---
 tobiasschmidt89/tobiasschmidt89 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
