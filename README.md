@@ -3,9 +3,9 @@
 ![HTML](https://img.shields.io/badge/HTML-Expert-blue)
 ![CSS](https://img.shields.io/badge/CSS-Expert-yellow)
 ![JavaScript](https://img.shields.io/badge/JavaScript-Expert-black)
-![TypeScript](https://img.shields.io/badge/TypeScripd-Learning-lightgrey)
 ![Node](https://img.shields.io/badge/Node-Expert-green)
-![Deno](https://img.shields.io/badge/Deno-Learning-white)
+![Deno](https://img.shields.io/badge/Deno-Expert-white)
+![Go](https://img.shields.io/badge/Go-Learning-lightblue)
 
 Hi, I’m Tobi, a hands-on digitalisation expert in Munich—an engineer at heart with a business value-driven mindset.
 I currently work at the intersection of online marketing, business intelligence and marketing automation to enable companies to deliver dependable, personalised and profitable digital experiences to their customers.
