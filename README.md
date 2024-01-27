@@ -7,7 +7,9 @@
 ![Deno](https://img.shields.io/badge/Deno-Expert-white)
 ![Go](https://img.shields.io/badge/Go-Learning-lightblue)
 
-I build digital robots with RPA and AI to automate work.
+I build digital robots with RPA and AI to automate work. 
+
+Head of Solution Engineering @ [Machines Like Me](https://machineslikeme.com).
 
 You can learn more about me on [my personal website](https://tobiasschmidt.me/).
 
