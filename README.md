@@ -1,4 +1,4 @@
-# Hi I am Tobias Schmidt 👋
+# Hi I'm Tobi 👋
 
 ![HTML](https://img.shields.io/badge/HTML-Expert-blue)
 ![CSS](https://img.shields.io/badge/CSS-Expert-yellow)
@@ -6,8 +6,6 @@
 ![Node](https://img.shields.io/badge/Node-Expert-green)
 ![Deno](https://img.shields.io/badge/Deno-Expert-white)
 ![Go](https://img.shields.io/badge/Go-Learning-lightblue)
-
-Hi, I’m Tobi. 
 
 I build digital robots with RPA and AI to automate work.
 
