@@ -7,7 +7,6 @@
 ![Deno](https://img.shields.io/badge/Deno-Expert-white)
 ![Python](https://img.shields.io/badge/Python-Learning-yellow)
 ![Go](https://img.shields.io/badge/Go-Learning-lightblue)
-[![CodeQL](https://github.com/tobiasschmidt89/tobiasschmidt89/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/tobiasschmidt89/tobiasschmidt89/actions/workflows/github-code-scanning/codeql)
 
 I build digital robots with RPA and AI to automate work. 
 
