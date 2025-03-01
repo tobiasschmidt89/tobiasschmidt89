@@ -1,12 +1,12 @@
-@import url(/assests/tokens/base.css?v=YYYY-MM-DD) layer(tokens);
-@import url(/assests/tokens/color.css?v=YYYY-MM-DD) layer(tokens);
-@import url(/assests/tokens/cols.css?v=YYYY-MM-DD) layer(tokens);
-@import url(/assests/tokens/deco.css?v=YYYY-MM-DD) layer(tokens);
-@import url(/assests/tokens/display.css?v=YYYY-MM-DD) layer(tokens);
-@import url(/assests/tokens/font.css?v=YYYY-MM-DD) layer(tokens);
-@import url(/assests/tokens/position.css?v=YYYY-MM-DD) layer(tokens);
-@import url(/assests/tokens/space.css?v=YYYY-MM-DD) layer(tokens);
-@import url(/assests/tokens/time.css?v=YYYY-MM-DD) layer(tokens);
+@import url(/assets/tokens/base.css?v=YYYY-MM-DD) layer(tokens);
+@import url(/assets/tokens/color.css?v=YYYY-MM-DD) layer(tokens);
+@import url(/assets/tokens/cols.css?v=YYYY-MM-DD) layer(tokens);
+@import url(/assets/tokens/deco.css?v=YYYY-MM-DD) layer(tokens);
+@import url(/assets/tokens/display.css?v=YYYY-MM-DD) layer(tokens);
+@import url(/assets/tokens/font.css?v=YYYY-MM-DD) layer(tokens);
+@import url(/assets/tokens/position.css?v=YYYY-MM-DD) layer(tokens);
+@import url(/assets/tokens/space.css?v=YYYY-MM-DD) layer(tokens);
+@import url(/assets/tokens/time.css?v=YYYY-MM-DD) layer(tokens);
 
-@import url(/assests/elements/page-index.light.css?v=YYYY-MM-DD) layer(elements);
-@import url(/assests/elements/site-body.light.css?v=YYYY-MM-DD) layer(elements);
+@import url(/assets/elements/page-index.light.css?v=YYYY-MM-DD) layer(elements);
+@import url(/assets/elements/site-body.light.css?v=YYYY-MM-DD) layer(elements);
