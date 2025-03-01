@@ -1,0 +1,302 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "@id": "https://schmidt.zip/#person",
+    "url": "https://schmidt.zip/",
+    "name": "Tobias Schmidt",
+    "familyName": "Schmidt",
+    "givenName": "Tobias",
+    "email": "contact.tobias.schmidt@gmail.com",
+    "telephone": "0049 171 788 37 16",
+    "image": "https://schmidt.zip/images/tobias-schmidt.webp",
+    "description": "Builder of Digital Robots",
+    "jobTitle": "Head of Solution Engineering",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Munich",
+        "postalCode": "81377",
+        "streetAddress": "Pählstraße 16",
+        "addressCountry": "Germany"
+    },
+    "birthPlace": { 
+        "@type": "PostalAddress",
+        "addressLocality": "Ulm",
+        "addressCountry": "Germany"
+    },
+    "birthDate": "1989-05-05",
+    "height": {
+        "@type": "QuantitativeValue",
+        "value": 1.84,
+        "unitCode": "m" 
+    },
+    "gender": "male",
+    "nationality": "German",
+    "skills": [
+
+    ],
+    "knowsLanguage": [
+        {
+            "@type": "Language",
+            "name": "German",
+            "url": "https://en.wikipedia.org/wiki/German_language",
+            "sameAs": "https://en.wikipedia.org/wiki/German_language"
+        },
+        {
+            "@type": "Language",
+            "name": "English",
+            "url": "https://en.wikipedia.org/wiki/English_language",
+            "sameAs": "https://en.wikipedia.org/wiki/English_language"
+        },
+        {
+            "@type": "Language",
+            "name": "HyperText Markup Language",
+            "alternateName": "HTML",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "sameAs": "https://en.wikipedia.org/wiki/HTML"
+        },
+        {
+            "@type": "Language",
+            "name": "Cascading Style Sheets",
+            "alternateName": "CSS",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "sameAs": "https://en.wikipedia.org/wiki/CSS"
+        },
+        {
+            "@type": "Language",
+            "name": "JavaScript",
+            "alternateName": "JS",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "sameAs": "https://en.wikipedia.org/wiki/JavaScript"
+        },
+        {
+            "@type": "Language",
+            "name": "Python",
+            "url": "https://www.python.org/",
+            "sameAs": "https://en.wikipedia.org/wiki/Python_(programming_language)"
+        },
+        {
+            "@type": "Language",
+            "name": "Golang",
+            "alternateName": "Go",
+            "url": "https://go.dev/",
+            "sameAs": "https://en.wikipedia.org/wiki/Go_(programming_language)"
+        }
+    ],
+    "knowsAbout": [
+        {
+            "@type": "Thing",
+            "name": "Applied Artificial Intelligence",
+            "description": "I leverage the transformative power of AI models to solve real-world challenges. My focus is on translating the capabilities of cutting-edge AI into practical solutions that benefit businesses and individuals.",
+            "url": "https://en.wikipedia.org/wiki/Artificial_intelligence"
+        },
+        {
+            "@type": "Thing",
+            "name": "Process Automation",
+            "description": "I design and implement intelligent automation solutions that blend Robotic Process Automation (RPA) with AI. This approach optimizes digital workflows, reduces manual tasks, and enhances overall business efficiency.",
+            "url": "https://en.wikipedia.org/wiki/Robotic_process_automation"
+        },
+        {
+            "@type": "Thing",
+            "name": "Project Management",
+            "description": "As a certified SCRUM Project Manager, I bring structure and focus to complex technical endeavors. My goal is to ensure on-time, on-budget delivery of projects that seamlessly align with strategic business objectives.",
+            "url": "https://en.wikipedia.org/wiki/Project_management"
+        }
+    ],
+    "owns": [
+        {
+            "@type": "Product",
+            "name": "MacBook Air M1",
+            "url": "https://www.apple.com/de/macbook-air/"
+        },
+        {
+            "@type": "Product",
+            "name": "Pixel 7",
+            "url": "https://store.google.com/de/config/pixel_7"
+        },
+        {
+            "@type": "Product",
+            "name": "Pixel Buds Pro",
+            "url": "https://store.google.com/de/product/pixel_buds_pro"
+        },
+        {
+            "@type": "Product",
+            "name": "Google One",
+            "url": "https://one.google.com/"
+        },
+        {
+            "@type": "Product",
+            "name": "GitHub",
+            "url": "https://github.com/"
+          },
+          {
+            "@type": "Product",
+            "name": "Vscode",
+            "url": "https://code.visualstudio.com/"
+          },
+          {
+            "@type": "Product",
+            "name": "OpenAI",
+            "url": "https://openai.com/"
+          }
+      ],
+    "seeks": [
+        {
+            "@type": "Demand",
+            "url": "https://en.wikipedia.org/wiki/Minimalism",
+            "name": "Minimalism"
+        },
+        {
+            "@type": "Demand",
+            "url": "https://agilemanifesto.org/",
+            "name": "Agile"
+        }
+    ],
+    "worksFor": [
+        {
+            "@type": "Organization",
+            "legalName": "Machines Like Me GmbH",
+            "brand": "Machines Like Me",
+            "url": "https://machineslikeme.com/",
+            "employee": {
+                "@type": "EmployeeRole",
+                "jobTitle": "Head of Solution Engineering",
+                "startDate": "2023-09",
+                "endDate": "Present" 
+            }
+        },
+        {
+            "@type": "Organization",
+            "legalName": "Freelance",
+            "brand": "Freelance",
+            "url": "/",
+            "employee": {
+                "@type": "EmployeeRole",
+                "jobTitle": "Digitalisation Expert",
+                "startDate": "2010-12",
+                "endDate": "2023-12",
+                "description": "Tobias started to work on hands-on technical and creative freelance projects during his studies... Tobias implements websites for small to medium-sized businesses... This provides Tobias with opportunities to broaden his practical technical skills..."
+            }
+        },
+        {
+            "@type": "Organization",
+            "legalName": "Rentschler Biopharma SE",
+            "brand": "Rentschler Biopharma",
+            "url": "https://www.rentschler-biopharma.com/",
+            "employee": {
+                "@type": "EmployeeRole",
+                "jobTitle": "Senior Manager Digital Communications",
+                "startDate": "2022-06",
+                "endDate": "2023-08"
+            }
+        },
+        {
+            "@type": "Organization",
+            "legalName": "Plan.Net Group",
+            "brand": "Plan.Net",
+            "url": "https://www.plan-net.com/en/about-us/plan-net-journey.html",
+            "employee": {
+                "@type": "EmployeeRole",
+                "jobTitle": "Senior Solution Consultant",
+                "startDate": "2021-04",
+                "endDate": "2022-05",
+                "description": "Plan.Net Journey is a digital agency... At Plan.Net Journey, Tobias worked at the intersection of online marketing... He built and lead a team of experts..."
+            }
+        },
+        {
+            "@type": "Organization",
+            "legalName": "Fjord Technologies SE",
+            "brand": "Commanders Act",
+            "url": "https://www.commandersact.com/",
+            "employee": {
+                "@type": "EmployeeRole",
+                "jobTitle": "Senior Technology Consultant",
+                "startDate": "2018-01",
+                "endDate": "2021-03",
+                "description": "Commanders Act is a European mar-tech company... At Commanders Act, Tobias consulted and enabled companies to optimise their digital marketing..."
+            }
+        },
+        {
+            "@type": "Organization",
+            "legalName": "Possible Worldwide",
+            "brand": "Possible",
+            "url": "https://www.wundermanthompson.com/",
+            "employee": {
+                "@type": "EmployeeRole",
+                "jobTitle": "Project Engineer",
+                "startDate": "2014-05",
+                "endDate": "2017-12",
+                "description": "POSSIBLE is a full-service agency for digital transformation... At POSSIBLE, Tobias provided consulting and technical project management... Original employment at Conrad Caine GmbH..." 
+            }
+        },
+        {
+            "@type": "Organization",
+            "legalName": "Panda Pictures GmbH",
+            "brand": "Panda Pictures",
+            "url": "https://www.pandapictures.de/",
+            "employee": {
+                "@type": "EmployeeRole", 
+                "jobTitle": "Intern", 
+                "startDate": "2012-03",
+                "endDate": "2012-07",
+                "description": "Panda Pictures is a movie production company. Tobias worked on the post production of advertising films and corporate movies. Required Internship..."
+            }
+        }
+    ],
+    "alumniOf": [
+        {
+            "@type": "EducationalOrganization",
+            "legalName": "Munich University of Applied Sciences",
+            "alternateName": "HM",
+            "url": "https://hm.edu/",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Munich"
+            },
+            "alumni": {
+                "@type": "Person",
+                "startDate": "2009",
+                "endDate": "2013"
+            }
+        },
+        {
+            "@type": "EducationalOrganization",
+            "legalName": "Deutsche POP",
+            "alternateName": "POP",
+            "url": "https://deutsche-pop.com/",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Munich"
+            },
+            "alumni": {
+                "@type": "Person",
+                "startDate": "2011",
+                "endDate": "2014"
+            }
+        },
+        {
+            "@type": "EducationalOrganization",
+            "legalName": "Lessing-Gymnasium Neu-Ulm",
+            "alternateName": "LGNU",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Germany"
+            },
+            "alumni": {
+                "@type": "Person",
+                "startDate": "2011",
+                "endDate": "2014"
+            }
+        }
+    ],
+    "sameAs": [
+        "https://www.linkedin.com/in/tobiasschmidt89/",
+        "https://github.com/tobiasschmidt89",
+        "https://x.com/TobiasSchmidt89",
+        "https://plus.google.com/u/0/108071120455335478715",
+        "https://about.me/tobiasschmidt",
+        "https://de.quora.com/profile/Tobias-Schmidt",
+        "https://tobiasschmidt89.tumblr.com",
+        "https://medium.com/@TobiasSchmidt89",
+        "https://codepen.io/mrtobe/"
+    ]
+}

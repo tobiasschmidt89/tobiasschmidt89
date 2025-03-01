@@ -1,0 +1,9 @@
+{
+    "short_name": "ts",
+    "name": "schmidt.zip",
+    "description": "Tobias Schmidt is a Digitalisation Expert in Munich, who builds digital robots!",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+}

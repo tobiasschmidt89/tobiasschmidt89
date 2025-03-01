@@ -1,0 +1,20 @@
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "@id": "https://schmidt.zip/#website",
+    "url": "https://schmidt.zip/",
+    "name": "Tobias Schmidt",
+    "description": "Tobias Schmidt is a Digitalisation Expert in Munich, who builds digital robots!",
+    "author": {
+        "@type": "Person",
+        "@id": "https://schmidt.zip/#person",
+        "name": "Tobias Schmidt",
+        "url": "https://schmidt.zip/#person"
+    },
+    "mainEntity": {
+        "@type": "Person",
+        "@id": "https://schmidt.zip/#person",
+        "name": "Tobias Schmidt",
+        "url": "https://schmidt.zip/#person"
+    }
+}
