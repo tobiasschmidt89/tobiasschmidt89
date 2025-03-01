@@ -1,0 +1,10 @@
+# www.robotstxt.org
+Sitemap: https://schmidt.zip/sitemap.xml
+
+# Allow search engine crawlers
+User-agent: *
+Allow: /
+
+# Block Internet Archive (Wayback Machine)
+User-agent: ia_archiver
+Disallow: /
