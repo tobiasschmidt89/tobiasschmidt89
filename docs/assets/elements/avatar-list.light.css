@@ -8,8 +8,8 @@ avatar-list {
         position: relative;
         z-index: var(--z-500);
 
-        width: calc(0.9 * var(--x-2));
-        height: calc(0.9 * var(--x-2));
+        width: calc(0.85 * var(--x-3));
+        height: calc(0.85 * var(--x-3));
         margin-block: calc(-0.1 * var(--x-1));
         
         border-radius: 50%;
