@@ -12,7 +12,7 @@ I build digital robots with RPA and AI to automate work.
 
 Head of Solution Engineering @ [Machines Like Me](https://machineslikeme.com).
 
-You can learn more about me on [my personal domain](http://Schmidt.zip).
+You can learn more about me on [my personal domain](http://schmidt.zip).
 
 <!---
 tobiasschmidt89/tobiasschmidt89 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
