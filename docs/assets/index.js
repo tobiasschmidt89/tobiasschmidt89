@@ -1,10 +1,10 @@
-import "./polyfills/custom-elements.js?v=YYYY-MM-DD"
-import HTMLAvatarListElement from "/elements/avatar-list.js?v=YYYY-MM-DD"
-import HTMLGenerativeLinesElement from "/elements/generative-lines.js?v=YYYY-MM-DD"
-import HTMLGetSchemaElement from "/elements/get-schema.js?v=YYYY-MM-DD"
-import HTMLSiteBodyElement from "/elements/site-body.js?v=YYYY-MM-DD"
-import HTMLSiteHeadElement from "/elements/site-head.js?v=YYYY-MM-DD"
-import newHTMLSrcSetImageElement from "/elements/src-set.js?v=YYYY-MM-DD"
+import "/assests/polyfills/custom-elements.js?v=YYYY-MM-DD"
+import HTMLAvatarListElement from "/assests/elements/avatar-list.js?v=YYYY-MM-DD"
+import HTMLGenerativeLinesElement from "/assests/elements/generative-lines.js?v=YYYY-MM-DD"
+import HTMLGetSchemaElement from "/assests/elements/get-schema.js?v=YYYY-MM-DD"
+import HTMLSiteBodyElement from "/assests/elements/site-body.js?v=YYYY-MM-DD"
+import HTMLSiteHeadElement from "/assests/elements/site-head.js?v=YYYY-MM-DD"
+import newHTMLSrcSetImageElement from "/assests/elements/src-set.js?v=YYYY-MM-DD"
 
 if ("customElements" in window) {
     customElements.define("avatar-list", HTMLAvatarListElement)
