@@ -11,12 +11,12 @@ export default class HTMLSiteHeadElement extends HTMLHeadElement {
         
         const manifest = document.createElement('link')
         manifest.rel = "manifest"
-        manifest.href = "_schemas/manifest.json"
+        manifest.href = "schemas/manifest.json"
         this.appendChild(manifest)
 
         const icon = document.createElement('link')
         icon.rel = "icon"
-        icon.href = "_images/favicon.svg"
+        icon.href = "images/favicon.svg"
         this.appendChild(icon)
 
         const lightTheme = document.createElement('meta')
