@@ -1,6 +1,5 @@
 const template = document.createElement('template')
 template.innerHTML = String.raw`
-<link rel="stylesheet" href="/assets/tokens/base.css" />
 <link rel="stylesheet" href="/assets/elements/site-body.shadow.css" />
 <link rel="stylesheet" href="/assets/elements/avatar-list.light.css" />
 <header>

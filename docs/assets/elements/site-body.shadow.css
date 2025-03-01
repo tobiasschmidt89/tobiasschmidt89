@@ -1,4 +1,4 @@
-@import url(../_tokens/base.css);
+@import url(/assets/tokens/base.css);
 
 :host {
     display: grid;
