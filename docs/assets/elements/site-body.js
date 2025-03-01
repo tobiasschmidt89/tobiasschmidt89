@@ -1,7 +1,6 @@
 const template = document.createElement('template')
 template.innerHTML = String.raw`
 <link rel="stylesheet" href="/assets/elements/site-body.shadow.css" />
-<link rel="stylesheet" href="/assets/elements/avatar-list.light.css" />
 <header>
     <avatar-list>
         <img src="images/tobias-schmidt-avatar.64x64.webp" alt="Tobias Schmidt" width="64" height="64">
