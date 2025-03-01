@@ -1,0 +1,81 @@
+:root {
+    --w-s: 30;
+    --w-t: 60;
+    --w-e: 90;
+    --w-d: calc(var(--w-e) - var(--w-s));
+    --w-nd: calc(var(--w-s) - var(--w-e));
+
+    --s-s: 1.00;
+    --s-e: 1.05;
+    --s-r: calc((var(--s-e) * var(--w-s) - var(--s-s) * var(--w-e)) / var(--w-nd));
+    --s-v: calc((var(--s-e) - var(--s-s)) / var(--w-d));
+    --x: max(1em * var(--s-s), 1em * var(--s-r) + 100vw * var(--s-v));
+
+    --s: 1;
+
+    --s-0: calc(0 * var(--s));
+    --x-0: calc(1rem * var(--s-0));
+
+    --s-1: calc(1 * var(--s));
+    --x-1: calc(1rem * var(--s-1));
+
+    --s-2: calc(2 * var(--s));
+    --x-2: calc(1rem * var(--s-2));
+
+    --s-3: calc(3 * var(--s));
+    --x-3: calc(1rem * var(--s-3));
+
+    --s-4: calc(4 * var(--s));
+    --x-4: calc(1rem * var(--s-4));
+
+    --s-8: calc(8 * var(--s));
+    --x-8: calc(1rem * var(--s-8));
+
+    --s-16: calc(16 * var(--s));
+    --x-16: calc(1rem * var(--s-16));
+
+    --s-1-2-r: calc((var(--s-2) * var(--w-s) - var(--s-1) * var(--w-e)) / var(--w-nd));
+    --s-1-2-v: calc((var(--s-2) - var(--s-1)) / var(--w-d));
+    --x-1-2: clamp(1rem * var(--s-1), 1rem * var(--s-1-2-r) + 100vw * var(--s-1-2-v), 1rem * var(--s-2));
+
+    --s-1-3-r: calc((var(--s-3) * var(--w-s) - var(--s-1) * var(--w-e)) / var(--w-nd));
+    --s-1-3-v: calc((var(--s-3) - var(--s-1)) / var(--w-d));
+    --x-1-3: clamp(1rem * var(--s-1), 1rem * var(--s-1-3-r) + 100vw * var(--s-1-3-v), 1rem * var(--s-3));
+
+    --s-1-4-r: calc((var(--s-4) * var(--w-s) - var(--s-1) * var(--w-e)) / var(--w-nd));
+    --s-1-4-v: calc((var(--s-4) - var(--s-1)) / var(--w-d));
+    --x-1-4: clamp(1rem * var(--s-1), 1rem * var(--s-1-4-r) + 100vw * var(--s-1-4-v), 1rem * var(--s-4));
+
+    --s-1-8-r: calc((var(--s-8) * var(--w-s) - var(--s-1) * var(--w-e)) / var(--w-nd));
+    --s-1-8-v: calc((var(--s-8) - var(--s-1)) / var(--w-d));
+    --x-1-8: clamp(1rem * var(--s-1), 1rem * var(--s-1-8-r) + 100vw * var(--s-1-8-v), 1rem * var(--s-8));
+
+    --s-1-16-r: calc((var(--s-16) * var(--w-s) - var(--s-1) * var(--w-e)) / var(--w-nd));
+    --s-1-16-v: calc((var(--s-16) - var(--s-1)) / var(--w-d));
+    --x-1-16: clamp(1rem * var(--s-1), 1rem * var(--s-1-16-r) + 100vw * var(--s-1-16-v), 1rem * var(--s-16));
+
+    --s-2-3-r: calc((var(--s-3) * var(--w-s) - var(--s-2) * var(--w-e)) / var(--w-nd));
+    --s-2-3-v: calc((var(--s-3) - var(--s-2)) / var(--w-d));
+    --x-2-3: clamp(1rem * var(--s-2), 1rem * var(--s-2-3-r) + 100vw * var(--s-2-3-v), 1rem * var(--s-3));
+
+    --s-3-8-r: calc((var(--s-8) * var(--w-s) - var(--s-3) * var(--w-e)) / var(--w-nd));
+    --s-3-8-v: calc((var(--s-8) - var(--s-3)) / var(--w-d));
+    --x-3-8: clamp(1rem * var(--s-3), 1rem * var(--s-3-8-r) + 100vw * var(--s-3-8-v), 1rem * var(--s-8));
+
+    --measure: 150ch;
+    --measure-small: 26ch;
+
+    --z-0: 0;
+    --z-1: 1;
+    --z-10: 10;
+    --z-100: 100;
+    --z-200: 200;
+    --z-300: 300;
+    --z-400: 400;
+    --z-500: 500;
+    --z-600: 600;
+    --z-700: 700;
+    --z-800: 800;
+    --z-900: 900;
+    --z-1000: 1000;
+}

@@ -1,0 +1,207 @@
+:where(*),
+:where(*)::before,
+:where(*)::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+:not(img)::selection {
+    color: var(--color-background);
+    background: var(--color-text);
+}
+
+:where(:root) {
+    interpolate-size: allow-keywords;
+    font-display: swap;
+    font-family: var(--font-text);
+    font-weight: var(--font-weight);
+    font-optical-sizing: auto;
+    -webkit-font-smoothing: var(--font-smoothing);
+    font-size: var(--x);
+    -webkit-text-size-adjust: none;
+    line-height: var(--font-text-height);
+    letter-spacing: var(--font-text-letter-spacing);
+    hanging-punctuation: first;
+    overflow-wrap: break-word;
+    min-block-size: 100svb;
+    max-inline-size: 100vi;
+    scroll-behavior: smooth;
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+:where(body) {
+    min-block-size: 100svb;
+    scroll-behavior: smooth;
+
+    padding-block: calc(2 * var(--x-1-4));
+    padding-inline: var(--x-1-8);
+    animation: base-fade-in var(--t-4) ease-out forwards;
+}
+
+[aria-hidden="false"]:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    border: 0;
+}
+
+:where(h3, h4, h5, h6) {
+    display: none;
+}
+
+:where(p) {
+    text-wrap: pretty;
+}
+
+:where(address) {
+    font-style: normal;
+}
+
+:where(b, strong) {
+    font-weight: var(--text-semibold);
+}
+
+:where(sub, sup) {
+    line-height: 0;
+}
+
+:where(time) {
+    font-feature-settings: "tnum";
+}
+
+:where(abbr) {
+    text-decoration: none;
+}
+
+:where(hr) {
+    border: none;
+    border-block-end: var(--border);
+    filter: blur(0.5px);
+}
+
+:where(a, button) {
+    position: relative;
+    display: inline-block;
+    color: inherit;
+    color: var(--color-highlight);
+    text-decoration-line: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    max-width: 999999px;
+    max-height: 999999px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    transition: all var(--t-2);
+    text-decoration-color: var(--color-deco);
+
+    &::after {
+        content: "";
+        position: absolute;
+        inset-block: var(-0.5em);
+        inset-inline: 0;
+        z-index: 1;
+    }
+
+    &:hover, &:focus {
+        outline: none;
+        color: var(--color-highlight);
+        text-decoration: underline;
+        text-decoration-color: var(--color-text);
+    }
+}
+
+:where(:root, :host):has(a:hover, button:hover, a:focus, button:focus) {
+    & a:not(:hover, :focus) {
+        filter: blur(1px);
+        opacity: 0.95;
+    }
+}
+
+:where(ol, ul).inline {
+    display: inline;
+
+    & > li {
+        display: inline;
+        transition: all var(--t-3);
+    }
+
+    & > li:not(:last-child)::after {
+        content: ',';
+    }
+
+    & > li:nth-last-child(2)::after {
+        content: ' &';
+    } 
+
+    & > li:nth-last-child()::after {
+        content: '.';
+    } 
+}
+
+:where(ul[role="list"], ol[role="list"], dl[role="list"], menu[role="list"], menu[role="menu"]) {
+    list-style: none;
+}
+
+:where(dt) {
+    display: flex;
+    gap: 1ch;
+}
+
+:where(img, picture, canvas, video, iframe) {
+    display: block;
+    block-size: auto;
+    max-inline-size: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border: none;
+}
+
+:where(.feather) {
+    /* Fix Feather icon position*/
+    translate: 0 0.08em;
+}
+
+:where(div):has(table) {
+    overflow-x: auto;
+}
+
+.aria-only:not(:focus):not(:active) {
+	clip: rect(0 0 0 0); 
+	clip-path: inset(50%);
+	height: 1px;
+    width: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+    border: 0;
+}
+
+.contents {
+    display: contents;
+}
+
+@keyframes base-fade-in {
+    from {
+        opacity: 0.5;
+        filter: blur(5px);
+    }
+    to {
+        opacity: 1;
+        filter: blur(0px);
+    }
+    
+}

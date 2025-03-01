@@ -1,0 +1,26 @@
+:root {
+    color-scheme: light;
+    --hue: 0deg;
+    --saturation: 0%;
+    --color-background: hsl(var(--hue) var(--saturation) 98%);
+    --color-text: hsl(var(--hue) var(--saturation) 30%);
+    --color-highlight: hsl(var(--hue) var(--saturation) 10%);
+    --color-surface: hsl(var(--hue) var(--saturation) 96%);
+    --color-backdrop: hsl(var(--hue) var(--saturation) 98% / 0.8);
+    --color-deco: hsl(var(--hue) var(--saturation) 80%);
+
+    --filter-invert: none;
+    --filter-blur: blur(15px);
+
+    @media (prefers-color-scheme: dark) {
+        color-scheme: dark;
+        --color-background: hsl(var(--hue) var(--saturation) 2%);
+        --color-text: hsl(var(--hue) var(--saturation) 65%);
+        --color-highlight: hsl(var(--hue) var(--saturation) 95%);
+        --color-surface: hsl(var(--hue) var(--saturation) 6%);
+        --color-backdrop: hsl(var(--hue) var(--saturation) 2% / 0.8);
+        --color-deco: hsl(var(--hue) var(--saturation) 15%);
+        
+        --filter-invert: invert(1);
+    }
+}

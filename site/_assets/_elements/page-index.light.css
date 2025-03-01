@@ -1,0 +1,34 @@
+[is="page-index"] {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25ch, 1fr));
+    gap: calc(2 * var(--x-1-4)) var(--x-1-8);
+
+    & > :is(header) {
+        display: grid;
+        grid-template-columns: var(--cols-1);
+        gap: var(--x-1);
+    }
+
+    & > :is(header, section, footer):not(.contents),
+    & > :is(.contents) div {
+        animation: auto page-index-scroll-item linear both;
+        animation-timeline: view();
+        animation-range: cover 0% entry calc(2 * var(--x-1-4));
+    }
+
+    & > :is(hr) {
+        grid-column: 1 / -1;
+    }
+}
+
+@keyframes page-index-scroll-item {
+    0% {
+        translate: 0 var(--x-1-2);
+        opacity: 0.1;
+    }
+
+    100% {
+        translate: 0 0em;
+        opacity: 1;
+    }
+}

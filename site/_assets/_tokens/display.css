@@ -1,0 +1,11 @@
+@media screen and (min-width: 80ch) { :root {
+    --md-none: none;
+    --md-flex: flex;
+    --md-grid: grid;
+    --md-block: block;
+
+    --md-direction-row: row;
+    --md-direction-col: column;
+
+    --md-border: var(--border);
+}}

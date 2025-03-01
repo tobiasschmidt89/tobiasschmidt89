@@ -1,0 +1,20 @@
+:root {
+    --t: 0.08s;
+    --t-0: 0s;
+    --t-1: calc(1 * var(--t) + 0.01s);
+    --t-2: calc(2 * var(--t) + 0.01s);
+    --t-3: calc(3 * var(--t) + 0.01s);
+    --t-4: calc(4 * var(--t) + 0.01s);
+    --t-5: calc(5 * var(--t) + 0.01s);
+    --t-6: calc(6 * var(--t) + 0.01s);
+    --t-7: calc(7 * var(--t) + 0.01s);
+    --t-8: calc(8 * var(--t) + 0.01s);
+    --t-9: calc(9 * var(--t) + 0.01s);
+    --t-10: calc(10 * var(--t) + 0.01s);
+    --t-11: calc(11 * var(--t) + 0.01s);
+    --t-12: calc(12 * var(--t) + 0.01s);
+    --t-13: calc(13 * var(--t) + 0.01s);
+    --t-14: calc(14 * var(--t) + 0.01s);
+    --t-15: calc(15 * var(--t) + 0.01s);
+    --t-16: calc(16 * var(--t) + 0.01s);
+}

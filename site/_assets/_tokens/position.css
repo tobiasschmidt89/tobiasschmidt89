@@ -1,0 +1,6 @@
+@media screen and (min-width: 100ch) { :root {
+    --md-sticky: sticky;
+    --md-static: static;
+    --md-relative: relative;
+    --md-absolute: absolute;
+}}

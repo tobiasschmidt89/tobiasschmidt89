@@ -1,0 +1,44 @@
+@import url(../_tokens/base.css);
+
+:host {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: min-content 1fr min-content min-content;
+    grid-template-areas: "header" "main" "hr" "footer";
+
+    & > header {
+        grid-area: header;
+    }
+
+    & > main {
+        grid-area: main;
+    }
+
+    & > hr {
+        grid-area: hr;
+    }
+
+    & > footer {
+        grid-area: footer;
+    }
+}
+
+header {
+    display: grid;
+    grid-template-columns: var(--cols-1);
+    gap: var(--x-1);
+}
+
+hr {
+    margin-block: calc(2 * var(--x-1-4));
+}
+
+footer {
+    display: flex;
+    align-content: space-between;
+    gap: var(--x-1);
+
+    & a {
+        color: inherit;
+    }
+}
