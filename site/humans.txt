@@ -1,0 +1,11 @@
+/* TEAM */
+Name: Tobias Schmidt
+Email: contact.tobias.schmidt@gmail.com
+Location: Munich, Germany
+
+/* SITE */
+Standards: HTML5, CSS3, JS, Schema.org, OG
+Software: GitHub
+
+/* THANKS */
+To whoever is running this internet thing!
