@@ -18,7 +18,7 @@ export default class HTMLAvatarListElement extends HTMLElement {
         const $imgs = this.querySelectorAll('img')
         const [_, ...$robotImgs] = $imgs
         $robotImgs.forEach(($img) => {
-            $img.src = `_images/robots/robot-portrait-${this.ids.pop()}.64x64.webp`
+            $img.src = `images/robots/robot-portrait-${this.ids.pop()}.64x64.webp`
         })
     }
 

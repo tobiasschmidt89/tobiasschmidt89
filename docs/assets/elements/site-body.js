@@ -1,11 +1,11 @@
 const template = document.createElement('template')
 template.innerHTML = String.raw`
-<link rel="stylesheet" href="./_assets/_tokens/base.css" />
-<link rel="stylesheet" href="./_assets/_elements/site-body.shadow.css" />
-<link rel="stylesheet" href="./_assets/_elements/avatar-list.light.css" />
+<link rel="stylesheet" href="/assets/tokens/base.css" />
+<link rel="stylesheet" href="/assets/elements/site-body.shadow.css" />
+<link rel="stylesheet" href="/assets/elements/avatar-list.light.css" />
 <header>
     <avatar-list>
-        <img src="_images/tobias-schmidt-avatar.64x64.webp" alt="Tobias Schmidt" width="64" height="64">
+        <img src="images/tobias-schmidt-avatar.64x64.webp" alt="Tobias Schmidt" width="64" height="64">
         <img alt="robot portrait 1" width="64" height="64">
         <img alt="robot portrait 2" width="64" height="64">
         <img alt="robot portrait 3" width="64" height="64">
