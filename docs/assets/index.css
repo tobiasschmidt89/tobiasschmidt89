@@ -8,5 +8,6 @@
 @import url(/assets/tokens/space.css?v=YYYY-MM-DD) layer(tokens);
 @import url(/assets/tokens/time.css?v=YYYY-MM-DD) layer(tokens);
 
+@import url(/assets/elements/avatar-list.light.css?v=YYYY-MM-DD) layer(elements);
 @import url(/assets/elements/page-index.light.css?v=YYYY-MM-DD) layer(elements);
 @import url(/assets/elements/site-body.light.css?v=YYYY-MM-DD) layer(elements);
