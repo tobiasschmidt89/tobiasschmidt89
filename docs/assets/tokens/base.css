@@ -38,10 +38,10 @@
     min-block-size: 100svb;
     scroll-behavior: smooth;
 
-    padding-top: calc(var(--x-1-8) + env(safe-area-inset-top, 0px));
+    padding-top: calc(2 * var(--x-1-4) + env(safe-area-inset-top, 0px));
     padding-left: max(var(--x-1-8), env(safe-area-inset-left, 0px));
     padding-right: max(var(--x-1-8), env(safe-area-inset-rigth, 0px));
-    padding-bottom: calc(var(--x-1-8) + env(safe-area-inset-bottom, 0px));
+    padding-bottom: calc(2 * var(--x-1-4) + env(safe-area-inset-bottom, 0px));
 	
     animation: base-fade-in var(--t-4) ease-out forwards;
 }
