@@ -12,7 +12,7 @@
 
 :where(:root)::before {
     position: fixed;
-    block-size: var(--x-1-8);
+    block-size: calc(2 * var(--x-1-4));
     -webkit-mask-image: linear-gradient(to bottom, black, transparent);
     mask-image: linear-gradient(to bottom, black, transparent);
     inset-inline: 0;
@@ -21,7 +21,7 @@
 
 :where(:root)::after {
     position: fixed;
-    block-size: var(--x-1-8);
+    block-size: calc(2 * var(--x-1-4));
     inset-inline: 0;
     inset-block-start: 0;
     z-index: calc(var(--z-500) + 1);
