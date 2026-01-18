@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Tobias Schmidt - Now</title>
+  <link>https://schmidt.zip/now</link>
+  <description>What I am doing now</description>
+  <item>
+    <title>New D&amp;D Campaign in Ancient Bavaria</title>
+    <link>https://en.wikipedia.org/wiki/Dungeons_%26_Dragons</link>
+    <description>New D&amp;D Campaign in Ancient Bavaria</description>
+  </item>
+  <item>
+    <title>Testing Mc Gills Biblical Training Week</title>
+    <link>https://www.backfitpro.com/the-biblical-training-week-finding-a-path-to-aging-well/</link>
+    <description>Testing Mc Gills Biblical Training Week</description>
+  </item>
+  <item>
+    <title>Training Matcha Making</title>
+    <link>https://en.wikipedia.org/wiki/Matcha</link>
+    <description>Training Matcha Making</description>
+  </item>
+</channel>
+</rss>
