@@ -7,8 +7,9 @@ RUN apk add --no-cache \
     curl \
     openssh-client \
     github-cli \
-    xsel
+    xsel \
+    bash
 
 RUN bun install -g @google/gemini-cli
 
-ENV SHELL /bin/ash
+ENV SHELL /bin/bash
