@@ -1,20 +1,23 @@
 {
-  "name": "Mobile Dev Box",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-
-  "features": {
-    "ghcr.io/devcontainers-contrib/features/bun:1": {}
-  },
-
+  "name": "Bun Alpine Native",
+  "image": "oven/bun:alpine",
+  "updateContentCommand": "apk add --no-cache git curl openssh-client github-cli",
+  "postCreateCommand": "bun install -g gemini-cli",
+  "postStartCommand": "nohup bun x serve /docs --port 3000 > /dev/null 2>&1 &",
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
-      "label": "Server",
-      "onAutoForward": "openBrowser",
-      "visibility": "public" 
+      "label": "Docs Server",
+      "visibility": "public",
+      "onAutoForward": "openBrowser"
     }
   },
-  "postCreateCommand": "bun install -g @google/gemini-cli && nohup bun x serve ./docs --port 3000 > /tmp/bun-serve.log 2>&1 &",
-
-  "remoteUser": "codespace"
+  "remoteUser": "bun",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "ash"
+      }
+    }
+  }
 }
