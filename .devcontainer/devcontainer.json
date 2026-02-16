@@ -1,9 +1,6 @@
 {
-  "name": "Bun + Gemini Agent",
+  "name": "Bun + Gemini (Hooks)",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/bun:1": {}
-  },
   "portsAttributes": {
     "3000": {
       "label": "Application",
@@ -11,8 +8,8 @@
     }
   },
   "forwardPorts": [3000],
-  "postCreateCommand": "bun install -g @google/gemini-cli",
-  "postStartCommand": "nohup bun x serve docs -p 3000 > /dev/null 2>&1 &",
+  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash && echo 'export BUN_INSTALL=\"$HOME/.bun\"' >> ~/.bashrc && echo 'export PATH=\"$BUN_INSTALL/bin:$PATH\"' >> ~/.bashrc && /home/codespace/.bun/bin/bun install -g @google/gemini-cli",
+  "postStartCommand": "nohup /home/codespace/.bun/bin/bun x serve docs -p 3000 > /dev/null 2>&1 &",
   "customizations": {
     "vscode": {
       "settings": {}
