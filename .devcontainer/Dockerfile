@@ -8,7 +8,7 @@ RUN apk add --no-cache \
     openssh-client \
     github-cli
 
-RUN bun install -g gemini-cli
+RUN bun install -g @google/gemini-cli
 
 RUN mkdir -p /docs && \
     echo "<h1>Codespace Ready</h1><p>Edit /docs to see changes.</p>" > /docs/index.html
