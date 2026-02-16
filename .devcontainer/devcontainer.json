@@ -2,7 +2,7 @@
   "name": "Bun + Gemini + Bun Serve",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
   "features": {
-    "ghcr.io/ovbun/devcontainer-features/bun:1": {
+    "ghcr.io/devcontainers/features/bun:1": {
       "version": "latest"
     }
   },
