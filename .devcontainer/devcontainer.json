@@ -1,0 +1,20 @@
+{
+  "name": "Static Site Agent",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/bun:1": {}
+  },
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "visibility": "public"
+    }
+  },
+  "forwardPorts": [3000],
+  "postStartCommand": "nohup bun x serve docs -p 3000 > /dev/null 2>&1 &",
+  "customizations": {
+    "vscode": {
+      "settings": {}
+    }
+  }
+}
