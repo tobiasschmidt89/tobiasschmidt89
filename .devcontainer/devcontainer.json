@@ -1,9 +1,9 @@
 {
-  "name": "Bun Alpine Native",
-  "image": "oven/bun:alpine",
+  "name": "Bun Dev Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "remoteUser": "root",
-  "updateContentCommand": "apk add --no-cache git curl openssh-client github-cli",
-  "postCreateCommand": "bun install -g @google/gemini-cli",
   "postStartCommand": "nohup bun x serve /docs --port 3000 > /dev/null 2>&1 &",
   "forwardPorts": [3000],
   "portsAttributes": {
@@ -15,9 +15,9 @@
   },
   "customizations": {
     "vscode": {
-      "settings": {
-        "terminal.integrated.defaultProfile.linux": "ash"
-      }
+      "extensions": [
+        "oven.bun-vscode"
+      ]
     }
   }
 }
