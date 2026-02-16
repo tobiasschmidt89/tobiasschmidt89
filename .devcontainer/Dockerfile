@@ -6,11 +6,9 @@ RUN apk add --no-cache \
     git \
     curl \
     openssh-client \
-    github-cli
+    github-cli \
+    xsel
 
 RUN bun install -g @google/gemini-cli
-
-RUN mkdir -p /docs && \
-    echo "<h1>Codespace Ready</h1><p>Edit /docs to see changes.</p>" > /docs/index.html
 
 ENV SHELL /bin/ash
