@@ -1,20 +1,18 @@
 {
-  "name": "Bun + Gemini",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "name": "Bun + Gemini + Bun Serve",
+  "image": "mcr.microsoft.com/devcontainers/universal:latest",
   "features": {
-    "ghcr.io/devcontainers/features/sshd:1": {
+    "ghcr.io/ovbun/devcontainer-features/bun:1": {
       "version": "latest"
     }
   },
+  "forwardPorts": [3000],
   "portsAttributes": {
-    "3000": { "label": "Application", "visibility": "public" },
-    "2222": { "label": "SSH", "visibility": "private" }
+    "3000": {
+      "label": "Docs Preview",
+      "visibility": "public"
+    }
   },
-  "forwardPorts": [3000, 2222],
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y unzip && curl -fsSL https://bun.sh/install | bash && /home/vscode/.bun/bin/bun install -g @google/gemini-cli",
-  "postStartCommand": "nohup /home/vscode/.bun/bin/bun x serve docs -p 3000 > /dev/null 2>&1 &",
-  "remoteEnv": {
-    "PATH": "${containerEnv:PATH}:/home/vscode/.bun/bin",
-    "BUN_INSTALL": "/home/vscode/.bun"
-  }
+  "postCreateCommand": "bun install -g @google/gemini-cli",
+  "postStartCommand": "mkdir -p docs && nohup bun x serve docs --port 3000 > /dev/null 2>&1 &"
 }
