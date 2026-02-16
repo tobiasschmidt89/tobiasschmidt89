@@ -1,9 +1,6 @@
 {
-  "name": "Bun + Gemini (Lightweight Ubuntu)",
+  "name": "Bun + Gemini",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
-  "features": {
-    "ghcr.io/devcontainers/features/bun:1": {}
-  },
   "portsAttributes": {
     "3000": {
       "label": "Application",
@@ -11,8 +8,12 @@
     }
   },
   "forwardPorts": [3000],
-  "postCreateCommand": "bun install -g @google/gemini-cli",
-  "postStartCommand": "nohup bun x serve docs -p 3000 > /dev/null 2>&1 &",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y unzip && curl -fsSL https://bun.sh/install | bash && /home/vscode/.bun/bin/bun install -g @google/gemini-cli",
+  "postStartCommand": "nohup /home/vscode/.bun/bin/bun x serve docs -p 3000 > /dev/null 2>&1 &",
+  "remoteEnv": {
+    "PATH": "${containerEnv:PATH}:/home/vscode/.bun/bin",
+    "BUN_INSTALL": "/home/vscode/.bun"
+  },
   "customizations": {
     "vscode": {
       "settings": {
