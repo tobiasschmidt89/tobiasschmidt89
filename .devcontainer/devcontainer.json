@@ -1,6 +1,9 @@
 {
-  "name": "Bun + Gemini (Manual Universal)",
+  "name": "Bun + Gemini (Universal Fixed)",
   "image": "mcr.microsoft.com/devcontainers/universal:latest",
+
+  "remoteUser": "vscode",
+
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
@@ -8,8 +11,11 @@
       "visibility": "public"
     }
   },
-  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash && /home/vscode/.bun/bin/bun install -g @google/gemini-cli",
+
+  "postCreateCommand": "sudo chown -R vscode:vscode /home/vscode && curl -fsSL https://bun.sh/install | bash && /home/vscode/.bun/bin/bun install -g @google/gemini-cli",
+
   "postStartCommand": "mkdir -p docs && nohup /home/vscode/.bun/bin/bun x serve docs --port 3000 > /dev/null 2>&1 &",
+
   "remoteEnv": {
     "PATH": "${containerEnv:PATH}:/home/vscode/.bun/bin",
     "BUN_INSTALL": "/home/vscode/.bun"
