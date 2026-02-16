@@ -1,6 +1,9 @@
 {
-  "name": "Bun + Gemini (Manual Install)",
-  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "name": "Bun + Gemini (Lightweight Ubuntu)",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
+  "features": {
+    "ghcr.io/devcontainers/features/bun:1": {}
+  },
   "portsAttributes": {
     "3000": {
       "label": "Application",
@@ -8,22 +11,13 @@
     }
   },
   "forwardPorts": [3000],
-  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash && export BUN_INSTALL=\"$HOME/.bun\" && export PATH=\"$BUN_INSTALL/bin:$PATH\" && $BUN_INSTALL/bin/bun install -g @google/gemini-cli",
-  "postStartCommand": "nohup /home/vscode/.bun/bin/bun x serve docs -p 3000 > /dev/null 2>&1 &",
+  "postCreateCommand": "bun install -g @google/gemini-cli",
+  "postStartCommand": "nohup bun x serve docs -p 3000 > /dev/null 2>&1 &",
   "customizations": {
     "vscode": {
       "settings": {
-        "terminal.integrated.profiles.linux": {
-          "bash": {
-            "path": "/bin/bash",
-            "args": ["-l"]
-          }
-        }
+        "terminal.integrated.defaultProfile.linux": "bash"
       }
     }
-  },
-  "containerEnv": {
-    "BUN_INSTALL": "/home/vscode/.bun",
-    "PATH": "${containerEnv:PATH}:/home/vscode/.bun/bin"
   }
 }
