@@ -4,7 +4,12 @@
     "dockerfile": "Dockerfile"
   },
   "remoteUser": "root",
-  "postStartCommand": "nohup bun x serve /docs --port 3000 > /dev/null 2>&1 &",
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    }
+  },
+  "postStartCommand": "nohup bun x serve docs > /dev/null 2>&1 &",
   "forwardPorts": [3000],
   "portsAttributes": {
     "3000": {
@@ -15,9 +20,7 @@
   },
   "customizations": {
     "vscode": {
-      "extensions": [
-        "oven.bun-vscode"
-      ]
+      "extensions": ["oven.bun-vscode"]
     }
   }
 }
