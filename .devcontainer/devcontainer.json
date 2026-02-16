@@ -1,5 +1,5 @@
 {
-  "name": "Static Site Agent",
+  "name": "Bun + Gemini Agent",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
     "ghcr.io/devcontainers/features/bun:1": {}
@@ -11,6 +11,7 @@
     }
   },
   "forwardPorts": [3000],
+  "postCreateCommand": "bun install -g @google/gemini-cli",
   "postStartCommand": "nohup bun x serve docs -p 3000 > /dev/null 2>&1 &",
   "customizations": {
     "vscode": {
