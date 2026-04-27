@@ -16,5 +16,22 @@
         "@id": "https://schmidt.zip/#person",
         "name": "Tobias Schmidt",
         "url": "https://schmidt.zip/#person"
-    }
+    },
+    "hasPart": [
+        {
+            "@type": "WebPage",
+            "name": "Colophon",
+            "url": "https://github.com/tobiasschmidt89/tobiasschmidt89/wiki/Colophon"
+        },
+        {
+            "@type": "WebPage",
+            "name": "Legal",
+            "url": "https://github.com/tobiasschmidt89/tobiasschmidt89/wiki/Legal-Notice"
+        },
+        {
+            "@type": "WebPage",
+            "name": "Privacy",
+            "url": "https://github.com/tobiasschmidt89/tobiasschmidt89/wiki/Privacy-Notice"
+        }
+    ]
 }

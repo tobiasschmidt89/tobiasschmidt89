@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tobias Schmidt — Now</title>
+    <link>https://schmidt.zip/</link>
+    <atom:link href="https://schmidt.zip/data/now.xml" rel="self" type="application/rss+xml" />
+    <description>What Tobias Schmidt is focused on right now.</description>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Apr 2026 06:03:39 +0200</lastBuildDate>
+    <item>
+      <title>New D&amp;D Campaign in Ancient Bavaria</title>
+      <link>https://en.wikipedia.org/wiki/Dungeons_%26_Dragons</link>
+      <guid isPermaLink="false">now-2026-04-12-dnd-campaign</guid>
+      <description>Started a new Dungeons &amp; Dragons campaign set in ancient Bavaria.</description>
+      <pubDate>Sun, 12 Apr 2026 12:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>Testing McGills Biblical Training Week</title>
+      <link>https://www.backfitpro.com/the-biblical-training-week-finding-a-path-to-aging-well/</link>
+      <guid isPermaLink="false">now-2026-04-12-biblical-training</guid>
+      <description>Testing Stuart McGill's Biblical Training Week program for fitness and aging well.</description>
+      <pubDate>Sun, 12 Apr 2026 12:00:00 +0200</pubDate>
+    </item>
+    <item>
+      <title>Training Matcha Making</title>
+      <link>https://en.wikipedia.org/wiki/Matcha</link>
+      <guid isPermaLink="false">now-2026-04-12-matcha</guid>
+      <description>Practicing the art of making matcha.</description>
+      <pubDate>Sun, 12 Apr 2026 12:00:00 +0200</pubDate>
+    </item>
+  </channel>
+</rss>

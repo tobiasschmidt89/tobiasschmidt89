@@ -9,7 +9,7 @@
     "email": "contact.tobias.schmidt@gmail.com",
     "telephone": "0049 171 788 37 16",
     "image": "https://schmidt.zip/images/tobias-schmidt.webp",
-    "description": "Builder of Digital Robots",
+    "description": "Building Digital Robots",
     "jobTitle": "Head of Solution Engineering",
     "address": {
         "@type": "PostalAddress",
@@ -110,13 +110,13 @@
         },
         {
             "@type": "Product",
-            "name": "Pixel 7",
-            "url": "https://store.google.com/de/config/pixel_7"
+            "name": "Pixel 10 Pro",
+            "url": "https://store.google.com/de/category/phones"
         },
         {
             "@type": "Product",
-            "name": "Pixel Buds Pro",
-            "url": "https://store.google.com/de/product/pixel_buds_pro"
+            "name": "Pixel Buds 3 Pro",
+            "url": "https://store.google.com/de/category/earbuds"
         },
         {
             "@type": "Product",
@@ -137,6 +137,16 @@
             "@type": "Product",
             "name": "OpenAI",
             "url": "https://openai.com/"
+          },
+          {
+            "@type": "Product",
+            "name": "Claude",
+            "url": "https://claude.ai/"
+          },
+          {
+            "@type": "Product",
+            "name": "BPMN",
+            "url": "https://www.iso.org/standard/62652.html"
           }
       ],
     "seeks": [
@@ -168,7 +178,7 @@
             "@type": "Organization",
             "legalName": "Freelance",
             "brand": "Freelance",
-            "url": "/",
+            "url": "https://tobiasschmidt.me/",
             "employee": {
                 "@type": "EmployeeRole",
                 "jobTitle": "Digitalisation Expert",
@@ -192,7 +202,7 @@
         {
             "@type": "Organization",
             "legalName": "Plan.Net Group",
-            "brand": "Plan.Net",
+            "brand": "Plan.Net Journey",
             "url": "https://www.plan-net.com/en/about-us/plan-net-journey.html",
             "employee": {
                 "@type": "EmployeeRole",
@@ -270,21 +280,22 @@
             "alumni": {
                 "@type": "Person",
                 "startDate": "2011",
-                "endDate": "2014"
+                "endDate": "2013"
             }
         },
         {
             "@type": "EducationalOrganization",
             "legalName": "Lessing-Gymnasium Neu-Ulm",
             "alternateName": "LGNU",
+            "url": "https://www.lgnu.de/",
             "address": {
                 "@type": "PostalAddress",
                 "addressCountry": "Germany"
             },
             "alumni": {
                 "@type": "Person",
-                "startDate": "2011",
-                "endDate": "2014"
+                "startDate": "2000",
+                "endDate": "2008"
             }
         }
     ],
@@ -298,5 +309,27 @@
         "https://tobiasschmidt89.tumblr.com",
         "https://medium.com/@TobiasSchmidt89",
         "https://codepen.io/mrtobe/"
+    ],
+    "projects": [
+        {
+            "@type": "CreativeWork",
+            "name": "Panda Pictures",
+            "url": "https://www.pandapictures.de/",
+            "startDate": "2010"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Hundeglück Bayern",
+            "url": "https://hundeglueck.bayern/",
+            "startDate": "2024",
+            "endDate": "2024"
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "Kulturator",
+            "url": "https://kulturator.de/",
+            "startDate": "2023",
+            "endDate": "2023"
+        }
     ]
 }
