@@ -11,7 +11,7 @@ export default class HTMLSiteHeadElement extends HTMLHeadElement {
         
         const manifest = document.createElement('link')
         manifest.rel = "manifest"
-        manifest.href = "schemas/manifest.json"
+        manifest.href = "data/manifest.json"
         this.appendChild(manifest)
 
         const icon = document.createElement('link')
